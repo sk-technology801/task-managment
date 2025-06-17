@@ -92,12 +92,13 @@ const TaskManagementHeader = () => {
                 >
                   Settings
                 </Link>
-                <button
+                <a
+                  href="/logout"
                   className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-500"
                   onClick={toggleUserMenu}
                 >
                   Logout
-                </button>
+                </a>
               </div>
             )}
           </div>
@@ -156,8 +157,8 @@ const TaskManagementHeader = () => {
               <Bell size={16} />
               <span>Notifications</span>
               <span className="bg-teal-500 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">
-                  2
-                </span>
+                2
+              </span>
             </button>
           </nav>
         </div>
